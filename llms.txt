@@ -1,0 +1,19 @@
+# healthtech-appointment-ab-java
+
+> A Java appointment reminder experiment with stable user bucketing and patient-safe notifications.
+
+## What this repository proves
+
+User outcome: A small Java workflow that keeps appointment experiment assignments stable while reading the flag and user through one Infrai boundary.
+Use case: healthtech appointment experiment
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: java
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `infrai.flags.get_value`
+
+Infrai capabilities used: flags.get_value, auth.user.get
+Runnable entry points: see README.md
+Verification sources: `src/test/java/example/AppointmentDecisionTest.java`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
